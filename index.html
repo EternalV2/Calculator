@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .first{
+            text-align: center;
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        .calculator{
+            margin: auto;
+            border: 10px solid gray;
+            width: 500px;
+        }
+        .buttons{
+            margin: 0px;
+            text-align: center;
+            font-size: 0px;
+        }
+        .test{
+            width: 100px;
+            height: 100px;
+            font-size: 25px;
+            background-color: lightblue;
+        }
+        .comp1{
+            width: 100px;
+            height: 100px;
+            font-size: 25px;
+            background-color: lightpink;
+        }
+        .comp2{
+            width: 100px;
+            height: 100px;
+            font-size: 25px;
+            background-color: lightyellow;
+        }
+        .screen{
+            margin: auto;
+            width: 498px;
+            height: 100px;
+            border: 2px solid black;
+        }
+        .screen1{
+            font-size: 50px;
+            text-align: right;
+            padding-top: 5px;
+        }
+        .result2{
+            font-size: 30px;
+            text-align: right;
+            margin: 0px;
+            padding-top: 10px;
+            height: 34.50px;
+        }
+    </style>
+</head>
+<body style="background-color:rgb(255, 255, 255)"> 
+    <h1 class="first">Calculator</h1>
+    <div class="calculator">
+        <div class="screen">
+            <p class = "result2" id = "result2"></p>
+            <form class="screen1" inputmode="text" id="Screen"></form>
+        </div>
+        <div class = "buttons">
+            <div>
+                <button class = "comp2", id = "DEL">DEL</button>
+                <button class = "comp1", id = "ANS">ANS</button>
+                <button class = "comp1", id = "sqrt: ">&#8730;</button>
+                <button class = "comp1", id = "^">^</button>
+                <button class = "comp1", id = "C">AC</button>
+            </div>
+            <div>
+                <button class = "comp2", id = "(-)">( - )</button>
+                <button class = "test", id = "1">1</button>
+                <button class = "test", id = "2">2</button>
+                <button class = "test", id = "3">3</button>
+                <button class = "test", style="background-color: lightsteelblue;" id = "/">/</button>
+            <div>
+            <div>
+                <button class = "comp2", id = "COS">COS</button>
+                <button class = "test", id = "4">4</button>
+                <button class = "test", id = "5">5</button>
+                <button class = "test", id = "6">6</button>
+                <button class = "test", style="background-color: lightsteelblue;" id = "*">*</button>
+            <div>
+            <div>
+                <button class = "comp2", id = "SIN">SIN</button>
+                <button class = "test", id = "7">7</button>
+                <button class = "test", id = "8">8</button>
+                <button class = "test", id = "9">9</button>
+                <button class = "test", style="background-color: lightsteelblue;" id = "-">-</button>
+            <div>
+            <div>
+                <button class = "comp2", id = "TAN">TAN</button>
+                <button class = "test", style="background-color: lightsteelblue;" id = ".">.</button>
+                <button class = "test", id = "0">0</button>
+                <button class = "test", style="background-color: lightsteelblue;" id = "=">=</button>
+                <button class = "test", style="background-color: lightsteelblue;" id = "+">+</button>
+            <div>
+        </div>
+    <div>    
+    <script src = "app.js"></script>
+</body>
+</html>
